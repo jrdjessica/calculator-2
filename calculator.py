@@ -30,3 +30,5 @@ while True:
         print(cube(tokens_1))
     elif tokens[0] == 'pow':
         print(power(tokens_1, tokens_2))
+    elif tokens[0] == 'mod':
+        print(mod(tokens_1, tokens_2))
