@@ -24,5 +24,7 @@ while True:
         print(multiply(tokens_1, tokens_2))
     elif tokens[0] == '/':
         print(divide(tokens_1, tokens_2))
+    elif tokens[0] == 'square':
+        print(square(tokens_1))
 
     
