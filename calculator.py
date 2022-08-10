@@ -22,5 +22,7 @@ while True:
         print(subtract(tokens_1, tokens_2))
     elif tokens[0] == '*':
         print(multiply(tokens_1, tokens_2))
+    elif tokens[0] == '/':
+        print(divide(tokens_1, tokens_2))
 
     
