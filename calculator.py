@@ -26,5 +26,6 @@ while True:
         print(divide(tokens_1, tokens_2))
     elif tokens[0] == 'square':
         print(square(tokens_1))
-
+    elif tokens[0] == 'cube':
+        print(cube(tokens_1))
     
