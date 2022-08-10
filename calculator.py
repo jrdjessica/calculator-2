@@ -28,4 +28,5 @@ while True:
         print(square(tokens_1))
     elif tokens[0] == 'cube':
         print(cube(tokens_1))
-    
+    elif tokens[0] == 'pow':
+        print(power(tokens_1, tokens_2))
