@@ -32,3 +32,5 @@ while True:
         print(power(tokens_1, tokens_2))
     elif tokens[0] == 'mod':
         print(mod(tokens_1, tokens_2))
+    else:
+        print('Invalid input. Try again.')
